@@ -11,13 +11,6 @@ const passport = require('passport');
 const validateRegisterInput = require('../../validation/register');
 const validateLoginInput = require('../../validation/login');
 
-// @route GET api/users/test
-// @desc Tests users route
-// @access public 
-router.get('/test', (req,res)=> res.json({msg:"Users connected"}))
-
-
-
 // @route   POST api/users/register
 // @desc    Register user
 // @access  Public
